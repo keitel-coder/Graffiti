@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98FEB9F61D6B562B0028A715 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FEB9F51D6B562B0028A715 /* main.m */; };
+		98FEB9F91D6B562B0028A715 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FEB9F81D6B562B0028A715 /* AppDelegate.m */; };
+		98FEB9FC1D6B562B0028A715 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FEB9FB1D6B562B0028A715 /* ViewController.m */; };
+		98FEB9FF1D6B562B0028A715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FEB9FD1D6B562B0028A715 /* Main.storyboard */; };
+		98FEBA011D6B562B0028A715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98FEBA001D6B562B0028A715 /* Assets.xcassets */; };
+		98FEBA041D6B562B0028A715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FEBA021D6B562B0028A715 /* LaunchScreen.storyboard */; };
+		98FEBA0F1D6B562C0028A715 /* GraffitiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FEBA0E1D6B562C0028A715 /* GraffitiTests.m */; };
+		98FEBA1A1D6B562C0028A715 /* GraffitiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FEBA191D6B562C0028A715 /* GraffitiUITests.m */; };
+		98FEBA291D6B5EA00028A715 /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FEBA281D6B5EA00028A715 /* PaintView.m */; };
+		98FEBA2C1D6B61B30028A715 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FEBA2B1D6B61B30028A715 /* UIImage+Extension.m */; };
+		98FEBA331D6B63740028A715 /* MBProgressHUD+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FEBA2F1D6B63740028A715 /* MBProgressHUD+Extension.m */; };
+		98FEBA341D6B63740028A715 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 98FEBA301D6B63740028A715 /* MBProgressHUD.bundle */; };
+		98FEBA351D6B63740028A715 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FEBA321D6B63740028A715 /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98FEBA0B1D6B562C0028A715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98FEB9E91D6B562B0028A715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98FEB9F01D6B562B0028A715;
+			remoteInfo = Graffiti;
+		};
+		98FEBA161D6B562C0028A715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98FEB9E91D6B562B0028A715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98FEB9F01D6B562B0028A715;
+			remoteInfo = Graffiti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98FEB9F11D6B562B0028A715 /* Graffiti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graffiti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FEB9F51D6B562B0028A715 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98FEB9F71D6B562B0028A715 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98FEB9F81D6B562B0028A715 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98FEB9FA1D6B562B0028A715 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		98FEB9FB1D6B562B0028A715 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		98FEB9FE1D6B562B0028A715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98FEBA001D6B562B0028A715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98FEBA031D6B562B0028A715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98FEBA051D6B562B0028A715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98FEBA0A1D6B562C0028A715 /* GraffitiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraffitiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FEBA0E1D6B562C0028A715 /* GraffitiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraffitiTests.m; sourceTree = "<group>"; };
+		98FEBA101D6B562C0028A715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98FEBA151D6B562C0028A715 /* GraffitiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraffitiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FEBA191D6B562C0028A715 /* GraffitiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraffitiUITests.m; sourceTree = "<group>"; };
+		98FEBA1B1D6B562C0028A715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98FEBA271D6B5EA00028A715 /* PaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintView.h; sourceTree = "<group>"; };
+		98FEBA281D6B5EA00028A715 /* PaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintView.m; sourceTree = "<group>"; };
+		98FEBA2A1D6B61B30028A715 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		98FEBA2B1D6B61B30028A715 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		98FEBA2E1D6B63740028A715 /* MBProgressHUD+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Extension.h"; sourceTree = "<group>"; };
+		98FEBA2F1D6B63740028A715 /* MBProgressHUD+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Extension.m"; sourceTree = "<group>"; };
+		98FEBA301D6B63740028A715 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		98FEBA311D6B63740028A715 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		98FEBA321D6B63740028A715 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98FEB9EE1D6B562B0028A715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FEBA071D6B562C0028A715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FEBA121D6B562C0028A715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98FEB9E81D6B562B0028A715 = {
+			isa = PBXGroup;
+			children = (
+				98FEB9F31D6B562B0028A715 /* Graffiti */,
+				98FEBA0D1D6B562C0028A715 /* GraffitiTests */,
+				98FEBA181D6B562C0028A715 /* GraffitiUITests */,
+				98FEB9F21D6B562B0028A715 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98FEB9F21D6B562B0028A715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98FEB9F11D6B562B0028A715 /* Graffiti.app */,
+				98FEBA0A1D6B562C0028A715 /* GraffitiTests.xctest */,
+				98FEBA151D6B562C0028A715 /* GraffitiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98FEB9F31D6B562B0028A715 /* Graffiti */ = {
+			isa = PBXGroup;
+			children = (
+				98FEBA2D1D6B63740028A715 /* MBProgressHUD */,
+				98FEBA2A1D6B61B30028A715 /* UIImage+Extension.h */,
+				98FEBA2B1D6B61B30028A715 /* UIImage+Extension.m */,
+				98FEB9F71D6B562B0028A715 /* AppDelegate.h */,
+				98FEB9F81D6B562B0028A715 /* AppDelegate.m */,
+				98FEB9FA1D6B562B0028A715 /* ViewController.h */,
+				98FEB9FB1D6B562B0028A715 /* ViewController.m */,
+				98FEB9FD1D6B562B0028A715 /* Main.storyboard */,
+				98FEBA001D6B562B0028A715 /* Assets.xcassets */,
+				98FEBA021D6B562B0028A715 /* LaunchScreen.storyboard */,
+				98FEBA051D6B562B0028A715 /* Info.plist */,
+				98FEB9F41D6B562B0028A715 /* Supporting Files */,
+				98FEBA271D6B5EA00028A715 /* PaintView.h */,
+				98FEBA281D6B5EA00028A715 /* PaintView.m */,
+			);
+			path = Graffiti;
+			sourceTree = "<group>";
+		};
+		98FEB9F41D6B562B0028A715 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98FEB9F51D6B562B0028A715 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98FEBA0D1D6B562C0028A715 /* GraffitiTests */ = {
+			isa = PBXGroup;
+			children = (
+				98FEBA0E1D6B562C0028A715 /* GraffitiTests.m */,
+				98FEBA101D6B562C0028A715 /* Info.plist */,
+			);
+			path = GraffitiTests;
+			sourceTree = "<group>";
+		};
+		98FEBA181D6B562C0028A715 /* GraffitiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98FEBA191D6B562C0028A715 /* GraffitiUITests.m */,
+				98FEBA1B1D6B562C0028A715 /* Info.plist */,
+			);
+			path = GraffitiUITests;
+			sourceTree = "<group>";
+		};
+		98FEBA2D1D6B63740028A715 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				98FEBA2E1D6B63740028A715 /* MBProgressHUD+Extension.h */,
+				98FEBA2F1D6B63740028A715 /* MBProgressHUD+Extension.m */,
+				98FEBA301D6B63740028A715 /* MBProgressHUD.bundle */,
+				98FEBA311D6B63740028A715 /* MBProgressHUD.h */,
+				98FEBA321D6B63740028A715 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98FEB9F01D6B562B0028A715 /* Graffiti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FEBA1E1D6B562C0028A715 /* Build configuration list for PBXNativeTarget "Graffiti" */;
+			buildPhases = (
+				98FEB9ED1D6B562B0028A715 /* Sources */,
+				98FEB9EE1D6B562B0028A715 /* Frameworks */,
+				98FEB9EF1D6B562B0028A715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Graffiti;
+			productName = Graffiti;
+			productReference = 98FEB9F11D6B562B0028A715 /* Graffiti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98FEBA091D6B562C0028A715 /* GraffitiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FEBA211D6B562C0028A715 /* Build configuration list for PBXNativeTarget "GraffitiTests" */;
+			buildPhases = (
+				98FEBA061D6B562C0028A715 /* Sources */,
+				98FEBA071D6B562C0028A715 /* Frameworks */,
+				98FEBA081D6B562C0028A715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98FEBA0C1D6B562C0028A715 /* PBXTargetDependency */,
+			);
+			name = GraffitiTests;
+			productName = GraffitiTests;
+			productReference = 98FEBA0A1D6B562C0028A715 /* GraffitiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98FEBA141D6B562C0028A715 /* GraffitiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FEBA241D6B562C0028A715 /* Build configuration list for PBXNativeTarget "GraffitiUITests" */;
+			buildPhases = (
+				98FEBA111D6B562C0028A715 /* Sources */,
+				98FEBA121D6B562C0028A715 /* Frameworks */,
+				98FEBA131D6B562C0028A715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98FEBA171D6B562C0028A715 /* PBXTargetDependency */,
+			);
+			name = GraffitiUITests;
+			productName = GraffitiUITests;
+			productReference = 98FEBA151D6B562C0028A715 /* GraffitiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98FEB9E91D6B562B0028A715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "李贵";
+				TargetAttributes = {
+					98FEB9F01D6B562B0028A715 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5G5P6RWVL8;
+					};
+					98FEBA091D6B562C0028A715 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5G5P6RWVL8;
+						TestTargetID = 98FEB9F01D6B562B0028A715;
+					};
+					98FEBA141D6B562C0028A715 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5G5P6RWVL8;
+						TestTargetID = 98FEB9F01D6B562B0028A715;
+					};
+				};
+			};
+			buildConfigurationList = 98FEB9EC1D6B562B0028A715 /* Build configuration list for PBXProject "Graffiti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98FEB9E81D6B562B0028A715;
+			productRefGroup = 98FEB9F21D6B562B0028A715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98FEB9F01D6B562B0028A715 /* Graffiti */,
+				98FEBA091D6B562C0028A715 /* GraffitiTests */,
+				98FEBA141D6B562C0028A715 /* GraffitiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98FEB9EF1D6B562B0028A715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FEBA041D6B562B0028A715 /* LaunchScreen.storyboard in Resources */,
+				98FEBA341D6B63740028A715 /* MBProgressHUD.bundle in Resources */,
+				98FEBA011D6B562B0028A715 /* Assets.xcassets in Resources */,
+				98FEB9FF1D6B562B0028A715 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FEBA081D6B562C0028A715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FEBA131D6B562C0028A715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98FEB9ED1D6B562B0028A715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FEBA331D6B63740028A715 /* MBProgressHUD+Extension.m in Sources */,
+				98FEBA2C1D6B61B30028A715 /* UIImage+Extension.m in Sources */,
+				98FEB9FC1D6B562B0028A715 /* ViewController.m in Sources */,
+				98FEBA291D6B5EA00028A715 /* PaintView.m in Sources */,
+				98FEB9F91D6B562B0028A715 /* AppDelegate.m in Sources */,
+				98FEB9F61D6B562B0028A715 /* main.m in Sources */,
+				98FEBA351D6B63740028A715 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FEBA061D6B562C0028A715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FEBA0F1D6B562C0028A715 /* GraffitiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FEBA111D6B562C0028A715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FEBA1A1D6B562C0028A715 /* GraffitiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98FEBA0C1D6B562C0028A715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98FEB9F01D6B562B0028A715 /* Graffiti */;
+			targetProxy = 98FEBA0B1D6B562C0028A715 /* PBXContainerItemProxy */;
+		};
+		98FEBA171D6B562C0028A715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98FEB9F01D6B562B0028A715 /* Graffiti */;
+			targetProxy = 98FEBA161D6B562C0028A715 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98FEB9FD1D6B562B0028A715 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98FEB9FE1D6B562B0028A715 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98FEBA021D6B562B0028A715 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98FEBA031D6B562B0028A715 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98FEBA1C1D6B562C0028A715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98FEBA1D1D6B562C0028A715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98FEBA1F1D6B562C0028A715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Graffiti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ligui.Graffiti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98FEBA201D6B562C0028A715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Graffiti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ligui.Graffiti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		98FEBA221D6B562C0028A715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GraffitiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ligui.GraffitiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Graffiti.app/Graffiti";
+			};
+			name = Debug;
+		};
+		98FEBA231D6B562C0028A715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GraffitiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ligui.GraffitiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Graffiti.app/Graffiti";
+			};
+			name = Release;
+		};
+		98FEBA251D6B562C0028A715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GraffitiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ligui.GraffitiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Graffiti;
+			};
+			name = Debug;
+		};
+		98FEBA261D6B562C0028A715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GraffitiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ligui.GraffitiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Graffiti;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98FEB9EC1D6B562B0028A715 /* Build configuration list for PBXProject "Graffiti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FEBA1C1D6B562C0028A715 /* Debug */,
+				98FEBA1D1D6B562C0028A715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FEBA1E1D6B562C0028A715 /* Build configuration list for PBXNativeTarget "Graffiti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FEBA1F1D6B562C0028A715 /* Debug */,
+				98FEBA201D6B562C0028A715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FEBA211D6B562C0028A715 /* Build configuration list for PBXNativeTarget "GraffitiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FEBA221D6B562C0028A715 /* Debug */,
+				98FEBA231D6B562C0028A715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FEBA241D6B562C0028A715 /* Build configuration list for PBXNativeTarget "GraffitiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FEBA251D6B562C0028A715 /* Debug */,
+				98FEBA261D6B562C0028A715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98FEB9E91D6B562B0028A715 /* Project object */;
+}
